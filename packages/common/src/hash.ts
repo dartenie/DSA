@@ -15,7 +15,7 @@ export namespace Hash {
   };
 
   export const int32Hash: Fn<number> = (num: number, cap: number) => {
-    return ((num * 0x9e3779b1) >>> 0) >> (32 - Math.floor(Math.log2(cap)));
+    return ((num * 0x9e3779b1) >>> 0) >>> (32 - Math.floor(Math.log2(cap)));
   };
 
   export const bigHash: Fn<number | bigint> = (num: number | bigint, cap: number) => {
