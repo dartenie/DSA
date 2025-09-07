@@ -3,10 +3,6 @@
 This repository contains a comprehensive collection of self-contained, thoroughly tested packages for **generic data structures, algorithms, and containers**. Everything is written in pure TypeScript with no external dependencies.
 Additionally, it includes a mini-framework for local development of LeetCode challenges and solutions to all challenges I've personally completed (updated frequently).
 
-## Motivation
-
-I like Computer Science and adjacent fields. I am also rather frustrated with the lack of standardized containers/algorithms within Javascript. While you can usually find an NPM package for specific needs, it's challenging to keep track of them as they're scattered and don't follow a common standard. (Note: This perspective is based on my current knowledge; there might be better resources I'm unaware of.)
-
 ## (Why) Should you use this?
 
 - **Learning Resource**: Useful for Students or anyone interested in CS concepts.
