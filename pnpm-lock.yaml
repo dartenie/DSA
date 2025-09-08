@@ -93,6 +93,31 @@ importers:
         specifier: ^29.2.4
         version: 29.2.4(@babel/core@7.25.2)(esbuild@0.23.0)(jest@29.7.0)(typescript@5.5.4)
 
+  LC/1317._Convert_Integer_to_the_Sum_of_Two_No-Zero_Integers:
+    dependencies:
+      '@dsa/common':
+        specifier: workspace:^
+        version: link:../../packages/common
+      '@dsa/jest-config':
+        specifier: workspace:^
+        version: link:../../packages/config/jest
+      '@dsa/tsconfig':
+        specifier: workspace:^
+        version: link:../../packages/config/tsconfig
+      esbuild:
+        specifier: ^0.23.0
+        version: 0.23.0
+    devDependencies:
+      '@jest/globals':
+        specifier: ^29.7.0
+        version: 29.7.0
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0
+      ts-jest:
+        specifier: ^29.2.4
+        version: 29.2.4(@babel/core@7.25.2)(esbuild@0.23.0)(jest@29.7.0)(typescript@5.5.4)
+
   LC/1367._Linked_List_in_Binary_Tree:
     dependencies:
       '@dsa/jest-config':
